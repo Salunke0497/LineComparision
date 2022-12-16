@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace lineComparision
 {
-    internal class Line2
+    internal class Line3
     {
-        public static void linecomparison()
+        public static void linecomparison1()
         {
             int x1, x2, y1, y2, x3, y3;
             double A, B, C, D, x, y, a, b;
@@ -38,9 +38,19 @@ namespace lineComparision
             b = Math.Sqrt(y);
             Console.WriteLine("length of line = " + b);
 
-            // Equals() method return true as both string objects are equal
-            Console.WriteLine("line 1 is eual to line 2");
-            Console.WriteLine(a.Equals(b));
+            int result = a.CompareTo(b);
+            if (result == 0)
+            {
+                Console.WriteLine("line1 is equal to line2");
+            }
+            else if (result > 0)
+            {
+                Console.WriteLine("Line1 is gretter than Line2");
+            }
+            else
+            {
+                Console.WriteLine("Line1 is less than line2");
+            }
         }
     }
 }

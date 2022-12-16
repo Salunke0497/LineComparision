@@ -10,7 +10,9 @@ namespace lineComparision
     {
         static void Main(string[] args)
         {
-            Line2.linecomparison();
+            //line1.line();
+            //Line2.linecomparison();
+            Line3.linecomparison1();
             Console.ReadLine();
         }
     }
