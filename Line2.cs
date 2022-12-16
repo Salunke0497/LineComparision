@@ -38,13 +38,9 @@ namespace lineComparision
             b = Math.Sqrt(y);
             Console.WriteLine("length of line = " + b);
 
-            //equals to method
-            string s1 = "a";
-            string s2 = "b";
-
             // Equals() method return true as both string objects are equal
             Console.WriteLine("line 1 is eual to line 2");
-            Console.WriteLine(s1.Equals(s2));
+            Console.WriteLine(a.Equals(b));
         }
     }
 }
