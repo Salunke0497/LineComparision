@@ -46,6 +46,7 @@
     <Compile Include="line1.cs" />
     <Compile Include="Line2.cs" />
     <Compile Include="Line3.cs" />
+    <Compile Include="line4.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
