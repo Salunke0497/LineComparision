@@ -12,7 +12,8 @@ namespace lineComparision
         {
             //line1.line();
             //Line2.linecomparison();
-            Line3.linecomparison1();
+            //Line3.linecomparison1();
+            line4.line();
             Console.ReadLine();
         }
     }
